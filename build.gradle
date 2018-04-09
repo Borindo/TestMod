@@ -5,10 +5,19 @@ buildscript {
             name = "forge"
             url = "http://files.minecraftforge.net/maven"
         }
+		maven {
+            name = "sonatype"
+            url = "https://oss.sonatype.org/content/repositories/snapshots/"
+        }
     }
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
     }
+}
+
+plugins {
+    id 'com.matthewprenger.cursegradle' version '1.0.8'
+	id 'se.bjurr.gitchangelog.git-changelog-gradle-plugin' version '1.50'
 }
 
 apply plugin: 'net.minecraftforge.gradle.forge'

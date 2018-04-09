@@ -5,13 +5,13 @@ author=APengu
 forge_version=14.23.0.2529
 minecraft_version=1.12.2
 mcp=snapshot_20170624
-hc_version=1.9.7.0
+hc_version=1.9.8.1
 jei_version=4.8.5.138
 
 #Mod info
-mod_id=template
-mod_id_fancy=Template
-mod_name=Template Mod
-mod_version=1a/b/r
-cf_project=CUSEFORGE_ID
-release_type=alpha/beta/release
+mod_id=testmod
+mod_id_fancy=TestMod
+mod_name=Test Mod
+mod_version=1a
+cf_project=0
+release_type=alpha
