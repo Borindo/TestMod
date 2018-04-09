@@ -1,10 +1,10 @@
 [
 	{
-	  "modid": "",
-	  "name": "",
+	  "modid": "testmod",
+	  "name": "Test Mod",
 	  "description": "",
-	  "version": "${config.mod_version}",
-	  "mcversion": "${config.minecraft_version}",
-	  "authorList": ["APengu"]
+	  "version": "${mod_version}",
+	  "mcversion": "${minecraft_version}",
+	  "authorList": ["Borindeus"]
 	}
 ]
